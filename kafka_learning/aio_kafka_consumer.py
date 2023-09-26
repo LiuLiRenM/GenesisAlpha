@@ -32,4 +32,5 @@ async def consume():
         await consumer.stop()
 
 
-asyncio.run(consume())
+if __name__ == "__main__":
+    asyncio.run(consume())
